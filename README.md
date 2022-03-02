@@ -1,4 +1,5 @@
 # Extracting and Loading from Public API into bigquery table
+- script used ``load_yahoo_finance.py``
 1. Extract and load data into bigquery in GCP from public API
 2. Set it as a job to run every 4 hour.
     - Use a linux cron job in compute-engine instance ( preferred)
